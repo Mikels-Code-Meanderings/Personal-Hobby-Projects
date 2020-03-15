@@ -1,7 +1,7 @@
 % Reading a text file with temperature data collected from the BMP-180 and read
 % via the arduino and saved onto an SD card 
 % Depending on the situation, tweak the code to represent the current temperature
-% Data situation. Learn lots, and have fun!
+% Data Readings. Learn lots, and have fun!
 
 clear all;
 clc;
