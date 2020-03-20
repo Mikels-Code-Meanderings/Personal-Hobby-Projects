@@ -5,7 +5,7 @@
 
 clear all;
 clc;
-H=textread("HDATA.TXT","%f");% import temperature data form PTDATA.TXT
+H=textread("HDATA.Stove.TXT","%f");% import temperature data form PTDATA.TXT
 H1=transpose(H); % transpose the text file rows into columns
 vec=columns(H1); % this makes sure the vector size is correct
 h0=.25.*vec.*(1/60).*(1/60); % number hours during data measurement 
